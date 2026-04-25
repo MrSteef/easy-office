@@ -17,6 +17,7 @@ pub struct MicrosoftIdentityConfig {
     /// original grant instead of forcing the configured scope set again.
     pub refresh_scopes: Option<Scopes>,
     pub authority_base_url: Url,
+    pub graph_base_url: Url,
 }
 
 impl MicrosoftIdentityConfig {
